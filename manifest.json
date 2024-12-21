@@ -1,0 +1,15 @@
+{
+    "name": "Random Fox Image",
+    "short_name": "Random Fox",
+    "start_url": "/fernandez.html",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "./2A/asdw.jpg",
+        "sizes": "72x72",
+        "type": "image/jpg"
+      }
+    ],
+    "background_color": "#ddd",
+    "theme_color": "#333"
+}
