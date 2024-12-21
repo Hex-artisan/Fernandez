@@ -1,7 +1,7 @@
 {
     "name": "Random Fox Image",
     "short_name": "Random Fox",
-    "start_url": "/fernandez.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "icons": [
       {
