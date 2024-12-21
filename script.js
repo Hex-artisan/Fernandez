@@ -1,4 +1,13 @@
-         function fetchFoxImage() {
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').then( () => {
+    console.log('Service Worker Registered')
+})
+})
+}
+        
+        function fetchFoxImage() {
             const imgElement = document.getElementById('foxImage');
             imgElement.style.display = 'none'; 
 
